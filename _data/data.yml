@@ -94,6 +94,12 @@ skills:
       - name: Azure
         level: 75%
 
+      - name: Windows
+        level: 85%
+        
+      - name: Linux
+        level: 65%
+
       - name: Docker & Kubernetes
         level: 55%
 
