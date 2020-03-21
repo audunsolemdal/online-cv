@@ -99,6 +99,16 @@ skills:
 
       - name: GitOps / Infrastructure as Code
         level: 55%
+
+      - name: Presentations
+        level: 75%
+
+      - name: Leadership
+        level: 70%
+
+      - name: Teamwork
+        level: 70%
+
         
       - name: .NET development
         level: 40%
