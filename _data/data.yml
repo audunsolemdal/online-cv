@@ -77,7 +77,7 @@ projects:
     assignments:
       - title: Equinor - SDP Tools
         link: "//github.com/equinor/sdp-aks"
-        tagline: "Azure, Kubernetes, Docker, Linux, Infrastructure as Code. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: https://github.com/equinor/sdp-flux "
+        tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: https://github.com/equinor/sdp-flux "
 
       - title: Equinor - iPlant
         link: ""
@@ -94,14 +94,32 @@ skills:
       - name: Azure
         level: 75%
 
+      - name: Docker & Kubernetes
+        level: 55%
+
+      - name: GitOps / Infrastructure as Code
+        level: 55%
+        
+      - name: .NET development
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Rest APIs
+        level: 50%
+
+      - name: Javascript
+        level: 30%
+
+      - name: Python3
+        level: 20%
+
       - name: Windows
         level: 85%
 
       - name: Linux
         level: 65%
-
-      - name: Docker & Kubernetes
-        level: 55%
 
       - name: SQL
         level: 70%
@@ -111,21 +129,6 @@ skills:
 
       - name: Bash
         level: 50%
-
-      - name: Rest APIs
-        level: 50%
-        
-      - name: Python3
-        level: 20%
-
-      - name: .NET development
-        level: 40%
-
-      - name: HTML5 & CSS
-        level: 50%
-
-      - name: Javascript
-        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

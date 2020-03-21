@@ -12,7 +12,8 @@
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for skill in skills.toolset limit: 3 offset: 0 %}
+    <h3>Cloud </h3>
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
