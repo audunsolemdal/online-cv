@@ -76,7 +76,7 @@ projects:
       All my professional projects so far have been for Equinor's Software Innovation department.
     assignments:
       - title: Equinor - SDP Tools
-        link: "//github.com/equinor.com/sdp-aks"
+        link: "//github.com/equinor/sdp-aks"
         tagline: "Azure, Kubernetes, Docker, Linux, Infrastructure as Code. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: https://github.com/equinor/sdp-flux "
 
       - title: Equinor - iPlant
