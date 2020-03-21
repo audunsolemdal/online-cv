@@ -77,7 +77,7 @@ projects:
     assignments:
       - title: Equinor - SDP Tools
         link: "//github.com/equinor.com/sdp-aks"
-        tagline: "Azure, Kubernetes, Docker, Linux, Infrastructure as Code. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS "
+        tagline: "Azure, Kubernetes, Docker, Linux, Infrastructure as Code. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: https://github.com/equinor/sdp-flux "
 
       - title: Equinor - iPlant
         link: ""
