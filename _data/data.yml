@@ -70,6 +70,13 @@ experiences:
           - Kubernetes & cloud native
           - IT operations (Linux and Windows)
           - .NET and Python development
+
+    - role: Student assistant in Javascript
+      time: Sep 2017 - Apr 2018
+      company: NTNU
+      details: |
+        Two semesters aiding students in two connected JavaScript courses
+        
 projects:
     title: Projects
     intro: >
