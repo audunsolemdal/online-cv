@@ -27,9 +27,27 @@
     </div><!--//item-->
     {% endfor %}
     <br>
+
+    <br>
+    <h4>Personal skills </h4>
+    <br>
+    {% for skill in skills.toolset limit: 3 offset: 3 %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+    <br>
+
     <h4>Development </h4>
     <br>
-    {% for skill in skills.toolset limit: 5 offset: 3 %}
+    {% for skill in skills.toolset limit: 5 offset: 6 %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -42,9 +60,10 @@
     </div><!--//item-->
     {% endfor %}
     <br>
+
     <h4>Infrastructure </h4>
     <br>
-    {% for skill in skills.toolset limit: 3 offset: 8 %}
+    {% for skill in skills.toolset limit: 3 offset: 11 %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -57,9 +76,10 @@
     </div><!--//item-->
     {% endfor %}
     <br>
+
     <h4>Scripting languages </h4>
     <br>
-    {% for skill in skills.toolset limit: 2 offset: 11 %}
+    {% for skill in skills.toolset limit: 2 offset: 14 %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
