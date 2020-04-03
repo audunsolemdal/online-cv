@@ -102,7 +102,7 @@ skills:
         level: 75%
 
       - name: Docker & Kubernetes
-        level: 55%
+        level: 60%
 
       - name: GitOps / Infrastructure as Code
         level: 55%
