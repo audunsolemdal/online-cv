@@ -76,6 +76,17 @@ experiences:
       company: NTNU
       details: |
         Two semesters aiding students in two connected JavaScript courses
+
+certifications:
+    title: Certifications
+    intro: You can validate my certifications by clicking the name of each certification
+    papers:
+      - title: Azure DevOps Engineer Expert (2020-)
+        link: https://www.youracclaim.com/badges/7da3994e-b96c-45d4-9eff-83f674aa08dd/
+      - title: Azure Solutions Architect Expert (2020-)
+        link: https://www.youracclaim.com/badges/a3563a39-bef3-4712-81dc-7f9f8b1afe0c/
+      - title: Azure Administrator Associate (2019-)
+        link: https://www.youracclaim.com/badges/08842a61-803c-4dea-ab5c-b6ef8b9816d6/
         
 projects:
     title: Projects
