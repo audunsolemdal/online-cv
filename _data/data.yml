@@ -97,20 +97,22 @@ projects:
       - title: Equinor - Centuries
         link: ""
         tagline: "Azure, Azure DevOps, .NET Core development, SQL server. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts."
-      
+        time: May 2020 - 
+
       - title: Equinor - SDP Tools
         link: "https://github.com/equinor/sdp-omnia"
         tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: "
+        time: June 2019 - 
 
       - title: Equinor - iPlant
         link: ""
         tagline: ".NET development, Windows server. Maintenance and further development of apps fetching sensor data from multiple Equinor plants. I've lead a pilot to migrate the service from depending on on-prem infrastructure and OracleDB to using a timeseries API running in Azure."
+        time: Sept 2019 - 
 
       - title: Equinor - CES to Omnia
         link: ""
         tagline: "Advisory role on how to migrate a container based platform from Amazon to Equinor's data platform on Azure."
-skills:
-    title: Skills &amp; Proficiency
+        time: October 2019 - December 2019
 
     toolset:
 
