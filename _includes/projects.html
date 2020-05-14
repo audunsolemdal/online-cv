@@ -28,7 +28,13 @@
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      - <span class="project-tagline">{{ project.tagline }}
+        {% if project.link != "" %}
+        <a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
+        {% else %}
+        {% endif %}
+
+      </span>
       {% endif %}
 
     </div><!--//item-->
