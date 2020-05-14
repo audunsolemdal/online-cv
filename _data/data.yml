@@ -79,7 +79,9 @@ experiences:
 
 certifications:
     title: Certifications
-    intro: You can validate my certifications by clicking the name of each certification
+    intro: |
+      Certifications taken in my spare time.
+      You can validate my certifications by clicking the name of each certification
     papers:
       - title: Azure DevOps Engineer Expert (2020-)
         link: https://www.youracclaim.com/badges/7da3994e-b96c-45d4-9eff-83f674aa08dd/
