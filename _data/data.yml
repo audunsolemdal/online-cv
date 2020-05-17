@@ -115,7 +115,9 @@ projects:
         link: ""
         tagline: "Advisory role on how to migrate a container based platform from Amazon to Equinor's data platform on Azure."
         time: October 2019 - December 2019
-
+        
+skills:
+    title: Skills &amp; Proficiency
     toolset:
 
       - name: Azure
