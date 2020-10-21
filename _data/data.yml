@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: audunlsolemdal@gmail.com
     phone: 
-    website: solomson.github.io #do not add http://
+    website: audunsolemdal.github.io #do not add http://
     linkedin: audun-solemdal
     github: solomson
     gitlab:
@@ -48,7 +48,7 @@ career-profile:
     title: Career Profile
     summary: |
       I work with DevOps and Azure. Special interest for cloud computing.
-      I see myself as a decent all-rounder. and enjoy seeing the bigger picture together with using technical skills. 
+      I see myself as a good all-rounder, and enjoy seeing the bigger picture together with using technical skills. 
 education:
     - degree: BSc in IT operations
       university: NTNU
@@ -66,33 +66,93 @@ experiences:
       company: Bouvet ASA, Trondheim
       details: |
         DevOps and Azure consultant for Equinor
-          - IT operations
           - Azure
           - Kubernetes & cloud native
+          - IT operations (Linux and Windows)
           - .NET and Python development
+
+    - role: Student assistant in Javascript
+      time: Sep 2017 - Apr 2018
+      company: NTNU
+      details: |
+        Two semesters aiding students in two connected JavaScript courses
+
+certifications:
+    title: Certifications
+    intro: |
+      Certifications taken in my spare time.
+      You can validate my certifications by clicking the name of each certification
+    papers:
+      - title: Azure DevOps Engineer Expert (2020-)
+        link: https://www.youracclaim.com/badges/7da3994e-b96c-45d4-9eff-83f674aa08dd/
+      - title: Azure Solutions Architect Expert (2020-)
+        link: https://www.youracclaim.com/badges/a3563a39-bef3-4712-81dc-7f9f8b1afe0c/
+      - title: Azure Administrator Associate (2019-)
+        link: https://www.youracclaim.com/badges/08842a61-803c-4dea-ab5c-b6ef8b9816d6/
+        
 projects:
     title: Projects
     intro: >
       All my professional projects so far have been for Equinor's Software Innovation department.
     assignments:
+
+      - title: Equinor - Centuries
+        link: ""
+        tagline: "Azure, Azure DevOps, .NET Core development, SQL server. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts."
+        time: May 2020 - 
+
       - title: Equinor - SDP Tools
-        link: "//github.com/equinor.com/sdp-aks"
-        tagline: "Maintaining apps running on internal infrastructure. Migrations to "
+        link: "https://github.com/equinor/sdp-omnia"
+        tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: "
+        time: June 2019 - 
 
       - title: Equinor - iPlant
         link: ""
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: ".NET development, Windows server. Maintenance and further development of apps fetching sensor data from multiple Equinor plants. I've lead a pilot to migrate the service from depending on on-prem infrastructure and OracleDB to using a timeseries API running in Azure."
+        time: Sept 2019 - 
 
       - title: Equinor - CES to Omnia
         link: ""
         tagline: "Advisory role on how to migrate a container based platform from Amazon to Equinor's data platform on Azure."
+        time: October 2019 - December 2019
+        
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
 
       - name: Azure
         level: 75%
+
+      - name: Docker & Kubernetes
+        level: 60%
+
+      - name: GitOps / Infrastructure as Code
+        level: 55%
+
+      - name: Presentations
+        level: 75%
+
+      - name: Leadership
+        level: 70%
+
+      - name: Teamwork
+        level: 70%
+
+        
+      - name: .NET development
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Rest APIs
+        level: 50%
+
+      - name: Javascript
+        level: 30%
+
+      - name: Python3
+        level: 20%
 
       - name: Windows
         level: 85%
@@ -100,32 +160,17 @@ skills:
       - name: Linux
         level: 65%
 
-      - name: Docker & Kubernetes
-        level: 55%
-
       - name: SQL
         level: 70%
 
       - name: Powershell
         level: 70%
 
+      - name: IT Security
+        level: 50%
+
       - name: Bash
         level: 50%
-
-      - name: Rest APIs
-        level: 50%
-        
-      - name: Python3
-        level: 20%
-
-      - name: .NET development
-        level: 40%
-
-      - name: HTML5 & CSS
-        level: 50%
-
-      - name: Javascript
-        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
