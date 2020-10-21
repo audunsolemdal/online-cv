@@ -16,10 +16,10 @@ sidebar:
     phone: 
     website: audunsolemdal.github.io #do not add http://
     linkedin: audun-solemdal
-    github: solomson
+    github: audunsolemdal
     gitlab:
     bitbucket:
-    twitter: 
+    twitter: audunsolemdal
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -146,13 +146,13 @@ skills:
 
         
       - name: .NET development
-        level: 40%
+        level: 50%
 
       - name: HTML5 & CSS
         level: 50%
 
       - name: Rest APIs
-        level: 50%
+        level: 55%
 
       - name: Javascript
         level: 30%
