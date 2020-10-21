@@ -98,13 +98,19 @@ projects:
 
       - title: Equinor - Centuries
         link: ""
-        tagline: "Azure, Azure DevOps, .NET Core development, SQL server. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts."
+        tagline: "Azure, Azure DevOps, Terraform, ASP.NET Core development, Entity Framework Core, Azure SQL server. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts. The project also provided me experience working with audits for sensitive financial data under the SOX act"
         time: May 2020 - 
 
       - title: Equinor - SDP Tools
         link: "https://github.com/equinor/sdp-omnia"
         tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: "
         time: June 2019 - 
+
+      - title: Equinor - Toolbox Admin
+        link: ""
+        tagline: "Admin for Equinor's GitHub, Gitlab, Azure DevOps, Power Platform. From time to time I assist the Toolbox admin team with technical expertise. Implementing new products and features providing value to Equinor's 1000+ developers."
+        time: Jan 2020 - 
+
 
       - title: Equinor - iPlant
         link: ""
