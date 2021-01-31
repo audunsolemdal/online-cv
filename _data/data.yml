@@ -69,7 +69,8 @@ experiences:
           - Azure
           - Kubernetes & cloud native
           - IT operations (Linux and Windows)
-          - .NET and Python development
+          - .NET and database development
+          - Task automation
 
     - role: Student assistant in Javascript
       time: Sep 2017 - Apr 2018
@@ -83,10 +84,14 @@ certifications:
       Certifications taken in my spare time.
       You can validate my certifications by clicking the name of each certification
     papers:
-      - title: Azure DevOps Engineer Expert (2020-)
-        link: https://www.youracclaim.com/badges/7da3994e-b96c-45d4-9eff-83f674aa08dd/
       - title: Azure Solutions Architect Expert (2020-)
         link: https://www.youracclaim.com/badges/a3563a39-bef3-4712-81dc-7f9f8b1afe0c/
+      - title: Azure DevOps Engineer Expert (2020-)
+        link: https://www.youracclaim.com/badges/7da3994e-b96c-45d4-9eff-83f674aa08dd/
+      - title: Azure Developer Associate (2021-)
+        link: https://www.youracclaim.com/badges/f868b373-7663-44fa-8129-6556b79c5cbe/
+      - title: Azure Security Engineer Associate (2021-)
+        link: https://www.youracclaim.com/badges/99914a49-3f51-4542-a67b-a02b4d7fc9a3/
       - title: Azure Administrator Associate (2019-)
         link: https://www.youracclaim.com/badges/08842a61-803c-4dea-ab5c-b6ef8b9816d6/
         
@@ -98,7 +103,7 @@ projects:
 
       - title: Equinor - Centuries
         link: ""
-        tagline: "Azure, Azure DevOps, Terraform, ASP.NET Core development, Entity Framework Core, Azure SQL server. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts. The project also provided me experience working with audits for sensitive financial data under the SOX act"
+        tagline: "Azure, ASP.NET Core development, Entity Framework Core, Azure SQL DB, SOX Audit automation, Azure DevOps, Terraform. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts. The project also provided me experience working with audits for sensitive financial data under the SOX act"
         time: May 2020 - 
 
       - title: Equinor - SDP Tools
@@ -108,14 +113,14 @@ projects:
 
       - title: Equinor - Toolbox Admin
         link: ""
-        tagline: "Admin for Equinor's GitHub, Gitlab, Azure DevOps, Power Platform. From time to time I assist the Toolbox admin team with technical expertise. Implementing new products and features providing value to Equinor's 1000+ developers."
+        tagline: "Admin for Equinor's GitHub, Gitlab, Azure DevOps, Snyk (IT security tool), Power Platform. From time to time I assist the Toolbox admin team with technical expertise. Implementing new products and features providing value to Equinor's 1000+ developers."
         time: Jan 2020 - 
 
 
       - title: Equinor - iPlant
         link: ""
         tagline: ".NET development, Windows server. Maintenance and further development of apps fetching sensor data from multiple Equinor plants. I've lead a pilot to migrate the service from depending on on-prem infrastructure and OracleDB to using a timeseries API running in Azure."
-        time: Sept 2019 - 
+        time: Sept 2019 - Dec 2020
 
       - title: Equinor - CES to Omnia
         link: ""
@@ -130,10 +135,10 @@ skills:
         level: 75%
 
       - name: Docker & Kubernetes
-        level: 60%
+        level: 65%
 
       - name: GitOps / Infrastructure as Code
-        level: 55%
+        level: 65%
 
       - name: Presentations
         level: 75%
@@ -143,25 +148,18 @@ skills:
 
       - name: Teamwork
         level: 70%
-
         
       - name: .NET development
-        level: 50%
+        level: 57%
 
-      - name: HTML5 & CSS
-        level: 50%
+      - name: Web development (HTML, CSS, JS)
+        level: 40%
 
       - name: Rest APIs
-        level: 55%
-
-      - name: Javascript
-        level: 30%
-
-      - name: Python3
-        level: 20%
+        level: 60%
 
       - name: Windows
-        level: 85%
+        level: 80%
 
       - name: Linux
         level: 65%
@@ -170,7 +168,7 @@ skills:
         level: 70%
 
       - name: Powershell
-        level: 70%
+        level: 75%
 
       - name: IT Security
         level: 50%

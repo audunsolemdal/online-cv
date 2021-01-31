@@ -8,9 +8,6 @@
     name: "Kubernetes (2019-)"
     level: 65%
   - skill:
-    name: "Amazon Web Services (AWS) (2020-)"
-    level: 15%
-  - skill:
     name: "Docker (2018-)"
     level: 60%
 
@@ -18,26 +15,20 @@
   name: Development
   skills:
   - skill:
-    name: .NET (2019-)
-    level: 55%
+    name: .NET development (2019-)
+    level: 58%
   - skill:
-    name: Python3 (2020-)
-    level: 20%
-  - skill:
-    name: HTML+CSS (2011-)
-    level: 60%
-  - skill:
-    name: JavaScript (2012-)
-    level: 35%
+    name: Web development (HTML, CSS, JS) (2011-)
+    level: 40%
   - skill:
     name: REST APIs (2019-)
-    level: 50%
+    level: 55%
   - skill:
     name: SQL (2011-)
     level: 65%
   - skill:
     name: Powershell (2016-)
-    level: 70%
+    level: 75%
   - skill:
     name: Bash (2017-)
     level: 40%
