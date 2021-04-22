@@ -61,6 +61,15 @@ education:
         The project was part of a larger, actual customer project assigned to Innofactor's department in Trondheim,
         who are specialists in Azure Cloud.
 experiences:
+
+    - role: Independent consultant
+      time: Apr 2021 - Present
+      company: Solemdal Consulting
+      details: |
+        DevOps and Azure consultant for Elekt in my spare time
+          - Azure
+          - DevOps
+
     - role: Consultant
       time: June 2019 - Present
       company: Bouvet ASA, Trondheim
@@ -98,8 +107,14 @@ certifications:
 projects:
     title: Projects
     intro: >
-      All my professional projects so far have been for Equinor's Software Innovation department.
+      All projects of a meaningful size in Bouvet have so been for Equinor's Software Innovation department.
+      In addition I do freelancing in my spare time for Elekt AS, a Trondheim based startup looking to improve the energy sector for consumers.
     assignments:
+
+      - title: Elekt AS - Elisa
+        link: ""
+        tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Elekt AS."
+        time: Apr 2021 - 
 
       - title: Equinor - Centuries
         link: ""
