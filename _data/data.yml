@@ -63,6 +63,12 @@ education:
 experiences:
 
     - role: Independent consultant
+      time: Sept 2021 - Present
+      company: Solemdal Consulting
+      details: |
+        Sub-contracting DevOps consultant for Helsedirektoratet, department Helseregistrene
+
+    - role: Independent consultant
       time: Apr 2021 - Present
       company: Solemdal Consulting
       details: |
@@ -71,7 +77,7 @@ experiences:
           - DevOps
 
     - role: Consultant
-      time: June 2019 - Present
+      time: June 2019 - Aug 2021
       company: Bouvet ASA, Trondheim
       details: |
         DevOps and Azure consultant for Equinor
