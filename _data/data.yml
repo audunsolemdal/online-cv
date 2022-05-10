@@ -141,7 +141,7 @@ projects:
       time: May 2020 - Aug 2021
 
     - title: Equinor - SDP Tools
-      link: "https://github.com/equinor/sdp-omnia"
+      link: "https://github.com/equinor/sdp-flux"
       tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: "
       time: June 2019 - Aug 2021
 
