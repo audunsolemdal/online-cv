@@ -125,6 +125,11 @@ projects:
     All projects of a meaningful size in Bouvet have so been for Equinor's Software Innovation department.
     In addition I do freelancing in my spare time for Elekt AS, a Trondheim based startup looking to improve the energy sector for consumers.
   assignments:
+    - title: Helsedirektoratet - KPR2024
+      link: ""
+      tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Helsedirektoratet."
+      time: Sep 2021 -
+
     - title: Elekt AS - Elisa
       link: ""
       tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Elekt AS."
