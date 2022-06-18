@@ -61,21 +61,28 @@ education:
       The project was part of a larger, actual customer project assigned to Innofactor's department in Trondheim,
       who are specialists in Azure Cloud.
 experiences:
+  - role: Cloud consultant
+    time: June 2022 - Present
+    company: Solom AS
+    details: |
+      Contract work for The Norwegian Environment Agency. Member of the CCoE / Cloud platform team. 
+      Main responsibility being further development of the AKS-based platform.
+
   - role: CSP indirect reseller
     time: May 2022 - Present
     company: Solom AS
     details: |
       CSP indirect reseller through Arrow Electronics. Contact me if you are interested in having a CSP!
 
-  - role: Independent consultant
-    time: Sept 2021 - Present
+  - role: DevOps consultant
+    time: Sept 2021 - June 2022
     company: Solom AS
     details: |
       Sub-contracting DevOps consultant for Helsedirektoratet, department Helseregistrene
 
       Formerly contracted under "Solemdal Consulting"
 
-  - role: Independent consultant
+  - role: Cloud & DevOps consultant
     time: Apr 2021 - Present
     company: Solom AS
     details: |
