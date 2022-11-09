@@ -129,13 +129,17 @@ certifications:
 projects:
   title: Projects
   intro: >
-    All projects of a meaningful size in Bouvet have so been for Equinor's Software Innovation department.
-    In addition I do freelancing in my spare time for Elekt AS, a Trondheim based startup looking to improve the energy sector for consumers.
+    All projects since September 2021 are freelance.
   assignments:
+    - title: Miljødirektoratet - Cloud Platform team
+      link: ""
+      tagline: "Freelance project. Main resposinbility is further development and ease of usage for AKS in Miljødirektoratet's Cloud Platform"
+      time: June 2022 - current
+
     - title: Helsedirektoratet - KPR2024
       link: ""
       tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Helsedirektoratet."
-      time: Sep 2021 -
+      time: Sep 2021 - June 2022
 
     - title: Elekt AS - Elisa
       link: ""
