@@ -175,13 +175,13 @@ skills:
   title: Skills &amp; Proficiency
   toolset:
     - name: Azure
-      level: 75%
+      level: 80%
 
     - name: Docker & Kubernetes
-      level: 65%
+      level: 75%
 
     - name: GitOps / Infrastructure as Code
-      level: 65%
+      level: 75%
 
     - name: Presentations
       level: 75%
@@ -193,7 +193,7 @@ skills:
       level: 70%
 
     - name: .NET development
-      level: 57%
+      level: 60%
 
     - name: Web development (HTML, CSS, JS)
       level: 40%
