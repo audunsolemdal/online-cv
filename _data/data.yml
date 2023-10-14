@@ -84,7 +84,7 @@ experiences:
       Formerly contracted under "Solemdal Consulting"
 
   - role: Cloud & DevOps consultant
-    time: Apr 2021 - Present
+    time: Apr 2021 - Dec 2022
     company: Solom AS
     details: |
       DevOps and Azure consultant for Elekt in my spare time
@@ -103,12 +103,6 @@ experiences:
         - IT operations (Linux and Windows)
         - .NET and database development
         - Task automation
-
-  - role: Student assistant in Javascript
-    time: Sep 2017 - Apr 2018
-    company: NTNU
-    details: |
-      Two semesters aiding students in two connected JavaScript courses
 
 certifications:
   title: Certifications
@@ -130,11 +124,16 @@ certifications:
 projects:
   title: Projects
   intro: >
-    All projects since September 2021 are freelance.
+    All projects since September 2021 are done through Solom.
   assignments:
+    - title: Artsdatabanken - Cloud assistance.
+      link: ""
+      tagline: "As Miljødirektoratet has responsibility for Artsdatabanken, I assist with cloud related tasks for them. This mostly involves Azure advisory, improving security, developer experience on Azure"
+      time: May 2023 - current
+
     - title: Miljødirektoratet - Cloud Platform team
       link: ""
-      tagline: "Freelance project. Main resposinbility is further development and ease of usage for AKS in Miljødirektoratet's Cloud Platform"
+      tagline: "Main responsiblity is further development and ease of usage for AKS in Miljødirektoratet's Cloud Platform. I also assist with continious improvement of the platform in general. "
       time: June 2022 - current
 
     - title: Helsedirektoratet - KPR2024
@@ -145,7 +144,7 @@ projects:
     - title: Elekt AS - Elisa
       link: ""
       tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Elekt AS."
-      time: Apr 2021 -
+      time: Apr 2021 - Dec 2023
 
     - title: Equinor - Centuries
       link: ""
@@ -176,13 +175,13 @@ skills:
   title: Skills &amp; Proficiency
   toolset:
     - name: Azure
-      level: 80%
+      level: 85%
 
     - name: Docker & Kubernetes
-      level: 75%
+      level: 80%
 
     - name: GitOps / Infrastructure as Code
-      level: 75%
+      level: 80%
 
     - name: Presentations
       level: 75%
@@ -215,7 +214,7 @@ skills:
       level: 75%
 
     - name: IT Security
-      level: 50%
+      level: 60%
 
     - name: Bash
       level: 50%
