@@ -126,6 +126,11 @@ projects:
   intro: >
     All projects since September 2021 are done through Solom.
   assignments:
+    - title: Riksantikvaren - Cloud assistance.
+      link: ""
+      tagline: "As Miljødirektoratet has responsibility for Riksantikvaren, I assist with cloud related tasks for them. This mostly involes migration to Azure and implementation on Azure Kubernetes Service."
+      time: May 2025 - current
+
     - title: Artsdatabanken - Cloud assistance.
       link: ""
       tagline: "As Miljødirektoratet has responsibility for Artsdatabanken, I assist with cloud related tasks for them. This mostly involves Azure advisory, improving security, developer experience on Azure"
