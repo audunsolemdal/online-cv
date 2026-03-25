@@ -7,24 +7,26 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    {{ projects.title | escape }}
   </h2>
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ projects.intro | escape }}</p>
   </div><!--//intro-->
   {% endif %}
 
   {% for project in projects.assignments %}
+    {% assign project_link = project.link | default: '' | strip %}
+    {% assign normalized_project_link = project_link | replace_first: 'http://', 'https://' %}
+    {% assign normalized_project_link_prefix = normalized_project_link | downcase | slice: 0, 8 %}
     <div class="item">
 
       <span class="project-title">
-        {% if project.link %}
-        <b> <a href="{{ project.link }}" target="_blank">{{ project.title }}</a> </b>
-        
+        {% if normalized_project_link_prefix == 'https://' %}
+        <b><a href="{{ normalized_project_link | escape }}" target="_blank" rel="noopener noreferrer">{{ project.title | escape }}</a></b>
         {% else %}
-      <b> {{ project.title }} </b>
+        <b>{{ project.title | escape }}</b>
         {% endif %}
       </span>
 
@@ -32,13 +34,10 @@
 
       <div class="company">{{ project.time }}</div>
 
-       <span class="project-tagline">{{ project.tagline }}
-        {% if project.link != "" %}
-        <a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
-        {% else %}
+       <span class="project-tagline">{{ project.tagline | escape }}
+        {% if normalized_project_link_prefix == 'https://' %}
+        <a href="{{ normalized_project_link | escape }}" target="_blank" rel="noopener noreferrer">{{ normalized_project_link | escape }}</a>
         {% endif %}
-
-
       </span>
       {% endif %}
 

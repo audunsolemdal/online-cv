@@ -1,21 +1,16 @@
-jQuery(document).ready(function($) {
+document.addEventListener('DOMContentLoaded', function () {
+    var levelBars = document.querySelectorAll('.level-bar-inner');
+    var validLevelPattern = /^(100|[1-9]?\d)%$/;
 
-    $('.level-bar-inner').css('width', '0');
-    
-    $(window).on('load', function() {
+    levelBars.forEach(function (levelBar) {
+        var level = levelBar.getAttribute('data-level');
 
-        $('.level-bar-inner').each(function() {
-        
-            var itemWidth = $(this).data('level');
-            
-            $(this).animate({
-                width: itemWidth
-            }, 800);
-            
+        if (!validLevelPattern.test(level)) {
+            return;
+        }
+
+        window.requestAnimationFrame(function () {
+            levelBar.style.width = level;
         });
-
     });
-   
-    
-
 });

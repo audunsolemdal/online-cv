@@ -251,8 +251,10 @@ p {
         background: $smoky-white;
     }
     .level-bar-inner {
+        width: 0;
         height: 12px;
         background: lighten($theme-color, 15%);
+        transition: width 0.8s ease;
     }
 }
 

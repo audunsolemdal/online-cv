@@ -17,11 +17,14 @@
   {% endif %}
 
   {% for publication in publications.papers %}
+  {% assign publication_link = publication.link | default: '' | strip %}
+  {% assign normalized_publication_link = publication_link | replace_first: 'http://', 'https://' %}
+  {% assign normalized_publication_link_prefix = normalized_publication_link | downcase | slice: 0, 8 %}
   <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+    {% if normalized_publication_link_prefix == 'https://' %}
+      <li><a href="{{ normalized_publication_link | escape }}">{{ publication.title | escape }}</a></li>
     {% else %}
-      <li>{{ publication.title }}</li>
+      <li>{{ publication.title | escape }}</li>
     {% endif %}
   </div><!--//item-->
   {% endfor %}

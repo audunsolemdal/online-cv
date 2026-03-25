@@ -14,7 +14,7 @@ sidebar:
   # Sidebar links
   email: audun@solom.no
   phone:
-  website: solom.no #do not add http://
+  website: solom.no #do not add https://
   linkedin: audun-solemdal
   github: audunsolemdal
   gitlab:
@@ -224,5 +224,7 @@ skills:
     - name: Bash
       level: 50%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer:
+  text: Designed with
+  author: Xiaoying Riley
+  url: https://themes.3rdwavemedia.com

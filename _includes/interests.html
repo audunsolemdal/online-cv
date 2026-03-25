@@ -8,13 +8,14 @@
 
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
-
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      {% assign interest_link = interest.link | default: '' | strip %}
+      {% assign normalized_interest_link = interest_link | replace_first: 'http://', 'https://' %}
+      {% assign normalized_interest_link_prefix = normalized_interest_link | downcase | slice: 0, 8 %}
+      {% if normalized_interest_link_prefix == 'https://' %}
+      <li><a href="{{ normalized_interest_link | escape }}">{{ interest.item | escape }}</a></li>
       {% else %}
-      <li>{{ interest.item }}</li>
+      <li>{{ interest.item | escape }}</li>
       {% endif %}
-
     {% endfor %}
   </ul>
 

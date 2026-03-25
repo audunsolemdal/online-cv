@@ -1,71 +1,81 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
-
     {% if sidebar.email %}
+    {% assign email = sidebar.email | strip %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      <a href="mailto:{{ email | escape }}">{{ email | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
+    {% assign phone_label = sidebar.phone | strip %}
+    {% assign phone_href = phone_label | replace: ' ', '' %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      <a href="tel:{{ phone_href | escape }}">{{ phone_label | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.website %}
+    {% assign website = sidebar.website | strip | replace: 'https://', '' | replace: 'http://', '' %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      <a href="https://{{ website | escape }}" target="_blank" rel="noopener noreferrer">{{ website | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.linkedin %}
+    {% assign linkedin = sidebar.linkedin | strip %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ linkedin | escape }}" target="_blank" rel="noopener noreferrer">{{ linkedin | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
+    {% assign github = sidebar.github | strip %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="https://github.com/{{ github | escape }}" target="_blank" rel="noopener noreferrer">{{ github | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.gitlab %}
+    {% assign gitlab = sidebar.gitlab | strip %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="https://gitlab.com/{{ gitlab | escape }}" target="_blank" rel="noopener noreferrer">{{ gitlab | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.bitbucket %}
+    {% assign bitbucket = sidebar.bitbucket | strip %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      <a href="https://bitbucket.org/{{ bitbucket | escape }}" target="_blank" rel="noopener noreferrer">{{ bitbucket | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.twitter %}
+    {% assign twitter = sidebar.twitter | strip %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+      <a href="https://twitter.com/{{ twitter | escape }}" target="_blank" rel="noopener noreferrer">{{ twitter | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.stack-overflow %}
+    {% assign stack_overflow = sidebar.stack-overflow | strip %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ stack_overflow | escape }}" target="_blank" rel="noopener noreferrer">{{ stack_overflow | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
+    {% assign codewars = sidebar.codewars | strip %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ codewars | escape }}/completed_solutions" target="_blank" rel="noopener noreferrer">{{ codewars | escape }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.goodreads %}
+    {% assign goodreads = sidebar.goodreads | strip %}
     <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
-      <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+      <a href="https://www.goodreads.com/user/show/{{ goodreads | escape }}" target="_blank" rel="noopener noreferrer">{{ goodreads | escape }}</a>
     </li>
     {% endif %}
-
   </ul>
 </div><!--//contact-container-->

@@ -17,11 +17,14 @@
   {% endif %}
 
   {% for certification in certifications.papers %}
+  {% assign certification_link = certification.link | default: '' | strip %}
+  {% assign normalized_certification_link = certification_link | replace_first: 'http://', 'https://' %}
+  {% assign normalized_certification_link_prefix = normalized_certification_link | downcase | slice: 0, 8 %}
   <div class="item">
-    {% if certification.link %}
-      <li><a href="{{ certification.link }}">{{ certification.title }}</a></li>
+    {% if normalized_certification_link_prefix == 'https://' %}
+      <li><a href="{{ normalized_certification_link | escape }}">{{ certification.title | escape }}</a></li>
     {% else %}
-      <li>{{ certification.title }}</li>
+      <li>{{ certification.title | escape }}</li>
     {% endif %}
   </div><!--//item-->
   {% endfor %}
