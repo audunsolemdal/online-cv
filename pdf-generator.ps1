@@ -17,7 +17,7 @@ function Grab-PDFs {
 		
 		# Grab PDFs from web page
 		
-		$psPage = Invoke-WebRequest "http://audunsolemdal.github.io/online-cv"
+		$psPage = Invoke-WebRequest "https://cv.solom.no"
 		$urls = $psPage.ParsedHtml.getElementsByTagName("A") | ? {$_.href -like "*.pdf"} | Select-Object -ExpandProperty href
 
 		$urls | ForEach-Object {Invoke-WebRequest -Uri $_ -OutFile ($_ | Split-Path -Leaf)}
