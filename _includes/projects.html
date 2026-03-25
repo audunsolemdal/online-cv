@@ -20,25 +20,20 @@
     <div class="item">
 
       <span class="project-title">
-        {% if project.link %}
-        <b> <a href="{{ project.link }}" target="_blank">{{ project.title }}</a> </b>
-        
+        {% if project.link and project.link != "" %}
+        <b><a href="{{ project.link }}" target="_blank" rel="noreferrer nofollow noopener">{{ project.title }}</a></b>
         {% else %}
-      <b> {{ project.title }} </b>
+        <b>{{ project.title }}</b>
         {% endif %}
       </span>
 
-      {% if project.tagline %}
-
+      {% if project.time %}
       <div class="company">{{ project.time }}</div>
+      {% endif %}
 
-       <span class="project-tagline">{{ project.tagline }}
-        {% if project.link != "" %}
-        <a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
-        {% else %}
-        {% endif %}
-
-
+      {% if project.tagline %}
+      <span class="project-tagline">
+        {{ project.tagline }}
       </span>
       {% endif %}
 
