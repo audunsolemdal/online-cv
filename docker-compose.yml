@@ -1,7 +1,7 @@
 services:
   jekyll:
     container_name: online-cv
-    image: jekyll/builder:4.0
+    image: jekyll/builder:4.4
     command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
     volumes:
       - .:/srv/jekyll:Z
